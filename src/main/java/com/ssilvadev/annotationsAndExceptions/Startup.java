@@ -1,4 +1,4 @@
-package com.ssilvadev.firststep;
+package com.ssilvadev.annotationsAndExceptions;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
