@@ -1,4 +1,4 @@
-package com.ssilvadev.annotationsAndExceptions.exception.handler;
+package com.ssilvadev.api.exception.handler;
 
 import java.util.Date;
 
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.ssilvadev.annotationsAndExceptions.exception.ExceptionResponse;
-import com.ssilvadev.annotationsAndExceptions.exception.ResourceNotFoundException;
-import com.ssilvadev.annotationsAndExceptions.exception.UnsuportedMathOperationException;
+import com.ssilvadev.api.exception.ExceptionResponse;
+import com.ssilvadev.api.exception.ResourceNotFoundException;
+import com.ssilvadev.api.exception.UnsuportedMathOperationException;
 
 @ControllerAdvice
 @RestController

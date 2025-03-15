@@ -1,4 +1,4 @@
-package com.ssilvadev.annotationsAndExceptions.service;
+package com.ssilvadev.api.service;
 
 import java.util.List;
 import java.util.logging.Logger;
@@ -6,9 +6,9 @@ import java.util.logging.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ssilvadev.annotationsAndExceptions.Repository.PersonRepository;
-import com.ssilvadev.annotationsAndExceptions.exception.ResourceNotFoundException;
-import com.ssilvadev.annotationsAndExceptions.model.Person;
+import com.ssilvadev.api.Repository.PersonRepository;
+import com.ssilvadev.api.exception.ResourceNotFoundException;
+import com.ssilvadev.api.model.Person;
 
 @Service
 public class PersonServices {

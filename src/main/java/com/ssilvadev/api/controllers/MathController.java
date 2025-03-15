@@ -1,11 +1,11 @@
-package com.ssilvadev.annotationsAndExceptions.controllers;
-
-import com.ssilvadev.annotationsAndExceptions.math.SimpleMath;
-import com.ssilvadev.annotationsAndExceptions.request.converters.NumberConverter;
+package com.ssilvadev.api.controllers;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.ssilvadev.api.math.SimpleMath;
+import com.ssilvadev.api.request.converters.NumberConverter;
 
 @RestController
 @RequestMapping("/math")

@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ssilvadev</groupId>
-	<artifactId>annotationsAndExceptions</artifactId>
+	<artifactId>api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>annotationsAndExceptions</name>
+	<name>api</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

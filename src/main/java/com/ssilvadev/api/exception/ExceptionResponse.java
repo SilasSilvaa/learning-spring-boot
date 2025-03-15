@@ -1,4 +1,4 @@
-package com.ssilvadev.annotationsAndExceptions.exception;
+package com.ssilvadev.api.exception;
 
 import java.util.Date;
 

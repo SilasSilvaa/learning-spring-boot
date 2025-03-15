@@ -1,4 +1,4 @@
-package com.ssilvadev.annotationsAndExceptions.model;
+package com.ssilvadev.api.model;
 
 import java.io.Serializable;
 import java.util.Objects;

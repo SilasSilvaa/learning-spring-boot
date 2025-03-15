@@ -1,4 +1,4 @@
-package com.ssilvadev.annotationsAndExceptions.request.converters;
+package com.ssilvadev.api.request.converters;
 
 public class NumberConverter {
     public static boolean isNumeric(String strNumber) {

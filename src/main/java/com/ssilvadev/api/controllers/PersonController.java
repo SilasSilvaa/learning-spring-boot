@@ -1,4 +1,4 @@
-package com.ssilvadev.annotationsAndExceptions.controllers;
+package com.ssilvadev.api.controllers;
 
 import java.util.List;
 
@@ -13,8 +13,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ssilvadev.annotationsAndExceptions.model.Person;
-import com.ssilvadev.annotationsAndExceptions.service.PersonServices;
+
+import com.ssilvadev.api.model.Person;
+import com.ssilvadev.api.service.PersonServices;
 
 @RestController
 @RequestMapping("/person")

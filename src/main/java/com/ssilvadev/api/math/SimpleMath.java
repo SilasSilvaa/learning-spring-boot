@@ -1,4 +1,4 @@
-package com.ssilvadev.annotationsAndExceptions.math;
+package com.ssilvadev.api.math;
 
 public class SimpleMath {
 
