@@ -1,0 +1,11 @@
+INSERT INTO `person` (`id`, `address`, `first_name`, `gender`, `last_name`) VALUES
+	(4, 'São Paulo', 'Some Name 15', 'Male', 'Some LastName'),
+	(6, 'São Paulo', 'Some Name 15', 'Male', 'Some LastName'),
+	(7, 'São Paulo', 'Some Name 15', 'Male', 'Some LastName'),
+	(8, 'São Paulo', 'Some Name 15', 'Male', 'Some LastName'),
+	(9, 'São Paulo', 'Some Name 15', 'Male', 'Some LastName'),
+	(10, 'São Paulo', 'Some Name 15', 'Male', 'Some LastName'),
+	(11, 'São Paulo', 'Some Name 22', 'Male', 'Some LastName'),
+	(12, 'São Paulo', 'Some Name 41', 'Male', 'Some LastName'),
+	(13, 'São Paulo', 'Some Name 41', 'Male', 'Some LastName'),
+	(14, 'São Paulo', 'Some Name 121', 'Male', 'Some LastName');
