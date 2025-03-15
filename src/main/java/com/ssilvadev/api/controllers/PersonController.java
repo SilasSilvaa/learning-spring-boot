@@ -18,7 +18,7 @@ import com.ssilvadev.api.data.dto.PersonDTO;
 import com.ssilvadev.api.service.PersonServices;
 
 @RestController
-@RequestMapping("/person")
+@RequestMapping("/api/person/v1")
 public class PersonController {
 
     @Autowired
