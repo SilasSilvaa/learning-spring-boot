@@ -1,14 +1,14 @@
 spring:
   application:
-    name: annotations-and-exceptions
+    name: api
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/annotations_and_exceptions?useTimezone=true&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/database_api?useTimezone=true&serverTimezone=UTC
     username: root
     password: admin
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: none
     properties:
       hibernate:
     show-sql: false
