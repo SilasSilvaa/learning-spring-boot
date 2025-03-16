@@ -1,5 +1,6 @@
 package com.ssilvadev.api.controllers;
 
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,7 +32,12 @@ public class PersonController {
 
     @GetMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     public PersonDTO findById(@PathVariable Long id) {
-        return service.findById(id);
+        var person = service.findById(id);
+
+        person.setBirthDay(new Date());
+        person.setPhone("+55 (11) 99876-0987");
+        person.setSensitiveData("Foo bar");
+        return person;
     }
 
     @PostMapping(produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
