@@ -1,4 +1,4 @@
-package com.ssilvadev.api.unitetests.mapper.mocks;
+package com.ssilvadev.api.unittests.mapper.mocks;
 
 import java.util.ArrayList;
 import java.util.List;

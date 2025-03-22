@@ -1,4 +1,4 @@
-package com.ssilvadev.api.unitetests.mapper;
+package com.ssilvadev.api.unittests.mapper;
 
 import static com.ssilvadev.api.mapper.ObjectMapper.parseListObjects;
 import static com.ssilvadev.api.mapper.ObjectMapper.parseObject;
@@ -7,11 +7,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.List;
 
 import com.ssilvadev.api.data.dto.PersonDTO;
-import com.ssilvadev.api.unitetests.mapper.mocks.MockPerson;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import com.ssilvadev.api.model.Person;
+import com.ssilvadev.api.unittests.mapper.mocks.MockPerson;
 
 public class ObjectMapperTests {
     MockPerson inputObject;

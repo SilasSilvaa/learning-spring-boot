@@ -1,10 +1,12 @@
-package com.ssilvadev.api.service;
+package com.ssilvadev.api.unittests.service;
 
 import com.ssilvadev.api.data.dto.BookDTO;
 import com.ssilvadev.api.exception.RequiredObjectsIsNullException;
 import com.ssilvadev.api.model.Book;
+import com.ssilvadev.api.service.BookServices;
+import com.ssilvadev.api.unittests.mapper.mocks.MockBook;
 import com.ssilvadev.api.Repository.BookRepository;
-import com.ssilvadev.api.unitetests.mapper.mocks.MockBook;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;

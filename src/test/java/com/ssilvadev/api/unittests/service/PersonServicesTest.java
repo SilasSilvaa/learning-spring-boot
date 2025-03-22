@@ -1,4 +1,4 @@
-package com.ssilvadev.api.service;
+package com.ssilvadev.api.unittests.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -27,7 +27,8 @@ import com.ssilvadev.api.Repository.PersonRepository;
 import com.ssilvadev.api.data.dto.PersonDTO;
 import com.ssilvadev.api.exception.RequiredObjectsIsNullException;
 import com.ssilvadev.api.model.Person;
-import com.ssilvadev.api.unitetests.mapper.mocks.MockPerson;
+import com.ssilvadev.api.service.PersonServices;
+import com.ssilvadev.api.unittests.mapper.mocks.MockPerson;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @ExtendWith(MockitoExtension.class)
