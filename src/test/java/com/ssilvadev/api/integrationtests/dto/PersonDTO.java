@@ -3,6 +3,11 @@ package com.ssilvadev.api.integrationtests.dto;
 import java.io.Serializable;
 import java.util.Objects;
 
+import com.ssilvadev.api.model.Person;
+
+import jakarta.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name = "Person")
 public class PersonDTO implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -12,6 +17,7 @@ public class PersonDTO implements Serializable {
     private String lastName;
     private String address;
     private String gender;
+    private Boolean enabled;
 
     public PersonDTO() {
 
@@ -57,20 +63,29 @@ public class PersonDTO implements Serializable {
         this.gender = gender;
     }
 
+    public Boolean getEnabled() {
+        return enabled;
+    }
+
+    public void setEnabled(Boolean enabled) {
+        this.enabled = enabled;
+    }
+
     @Override
     public int hashCode() {
-        return Objects.hash(getId(), getFirstName(), getLastName(), getAddress(), getGender());
+        return Objects.hash(getId(), getFirstName(), getLastName(), getAddress(), getGender(), getEnabled());
     }
 
     @Override
     public boolean equals(Object obj) {
-        if (!(obj instanceof PersonDTO person))
+        if (!(obj instanceof Person person))
             return false;
 
         return Objects.equals(getId(), person.getId()) &&
                 Objects.equals(getFirstName(), person.getFirstName()) &&
                 Objects.equals(getLastName(), person.getLastName()) &&
                 Objects.equals(getAddress(), person.getAddress()) &&
-                Objects.equals(getGender(), person.getGender());
+                Objects.equals(getAddress(), person.getAddress()) &&
+                Objects.equals(getEnabled(), person.getEnabled());
     }
 }
