@@ -5,9 +5,11 @@ import java.util.Date;
 import java.util.Objects;
 
 import org.springframework.hateoas.RepresentationModel;
+import org.springframework.hateoas.server.core.Relation;
 
 import com.ssilvadev.api.model.Book;
 
+@Relation(collectionRelation = "books")
 public class BookDTO extends RepresentationModel<BookDTO> implements Serializable {
     
     private static final long serialVersionUID = 1L;
