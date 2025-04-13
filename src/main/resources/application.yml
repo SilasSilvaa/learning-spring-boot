@@ -1,5 +1,7 @@
 cors:
   originPatterns: http://localhost:8080,http://localhost:3000,http://localhost:8181
+file:
+  upload-dir: /dev/UploadDir
 spring:
   application:
     name: api
@@ -16,6 +18,13 @@ spring:
     show-sql: false
 
     open-in-view: false
+
+  servlet:
+    multpart:
+      enable: true
+      file-size-threshold: 2KB
+      max-file-size: 200MB
+      max-request-size: 215MB
 logging:
   level:
     # root: WARN
